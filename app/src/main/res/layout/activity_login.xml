@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/sigmar_one"
         android:text="FEELS"
-        android:textColor="@color/azul_primario"
+        android:textColor="@color/gris_claro"
         android:textSize="70sp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
