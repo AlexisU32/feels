@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <LinearLayout
+        android:id="@+id/header_principal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/grisObscuro">
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_fragment_principal"
+        android:layout_above="@id/btn_navigationView_principal"
+        android:layout_below="@+id/header_principal" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btn_navigationView_principal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemIconSize="29sp"
+        app:menu="@menu/btnview_principal"
+        app:itemTextColor="@drawable/estado_icono_seleccionado"
+        app:itemIconTint="@drawable/estado_icono_seleccionado">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+</RelativeLayout>

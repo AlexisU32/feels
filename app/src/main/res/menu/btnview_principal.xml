@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_home" android:title="Inicio" android:icon="@drawable/icono_home_black_24dp"/>
+    <item android:id="@+id/item_promociones" android:title="Promos" android:icon="@drawable/icono_search"/>
+    <item android:id="@+id/item_citas" android:title="Citas" android:icon="@drawable/icono_menu_barras"/>
+    <item android:id="@+id/item_user" android:title="Shopping" android:icon="@drawable/icono_carro_compra"/>
+
+</menu>
