@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/fondo_btn_ingresar_bloqueado.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable/background_fragment_principal.xml" value="0.3101851851851852" />
         <entry key="app/src/main/res/drawable/estado_icono_seleccionado.xml" value="0.3101851851851852" />
+        <entry key="app/src/main/res/drawable/fondo_btn_ingresar.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/fondo_btn_ingresar_bloqueado.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/fondo_btn_iniciar_login.xml" value="0.3175925925925926" />
+        <entry key="app/src/main/res/drawable/fondo_btn_login.xml" value="0.3175925925925926" />
+        <entry key="app/src/main/res/drawable/fonf.xml" value="0.3175925925925926" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable/ic_menu_barras.xml" value="0.321025641025641" />
@@ -14,6 +20,7 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.30512820512820515" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_principal.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/btnview_principal.xml" value="0.3098958333333333" />
       </map>
     </option>
