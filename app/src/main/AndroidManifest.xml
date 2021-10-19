@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Feels">
         <activity
-            android:name=".Login"
-            android:exported="true">
+            android:name=".CrearCliente"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,13 +21,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Principal"
+            android:name=".Login"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".Splash_screen"
+            android:name=".Principal"
             android:exported="true"></activity>
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

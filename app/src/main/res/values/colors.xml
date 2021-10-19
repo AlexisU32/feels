@@ -14,4 +14,5 @@
     <color name="gris_claro">#bfc0c0</color>
     <color name="gris_mas_claro">#F5F5F5</color>
     <color name="grisObscuro">#70798c</color>
+    <color name="rojo">#ff060e</color>
 </resources>
