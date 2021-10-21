@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
     // Referenciar los objetos del xml
     EditText user, password;
     TextView olvido_contraseña, registrarse;
-    Button iniciar_sesion;
+    Button iniciar_sesion, negocio;
 
     // Instanciar un objeto de la clase Handler
     Handler handler = new Handler();
@@ -46,6 +46,7 @@ public class Login extends AppCompatActivity {
         olvido_contraseña = findViewById(R.id.tv_recuperar_password_login);
         registrarse = findViewById(R.id.tv_registrarse_login);
         iniciar_sesion = findViewById(R.id.btn_iniciar_sesion_login);
+        negocio = findViewById(R.id.btn_negocio_login);
 
         /**
          * @author Alexis Ruiz Uribe

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarUser"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/icono_atras2_foreground"
+        android:padding="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="Registrese en feels"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185">
+
+        <EditText
+            android:id="@+id/et_name_registrar_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo_btn_login"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Nombre"
+            android:layout_marginRight="5dp"
+            android:imeOptions="actionNext"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:paddingLeft="18dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gris_claro"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/et_lastname_registrar_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/fondo_btn_login"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Apellido"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:paddingLeft="18dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gris_claro"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_email_registrar_user"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/fondo_btn_login"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Correo electrónico"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLength="40"
+        android:paddingLeft="18dp"
+
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gris_claro"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <EditText
+        android:id="@+id/et_cellphone_registrar_user"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/fondo_btn_login"
+        android:hint="Teléfono"
+        android:textColorHint="@color/gris_claro"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_light"
+        android:paddingLeft="18dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:maxLength="40"
+
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_email_registrar_user" />
+
+    <EditText
+        android:id="@+id/et_password_1_registrar_user"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/fondo_btn_login"
+        android:hint="Contraseña"
+        android:textColorHint="@color/gris_claro"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_light"
+        android:paddingLeft="18dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:maxLength="40"
+
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_cellphone_registrar_user" />
+
+    <EditText
+        android:id="@+id/et_password_2_registrar_user"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/fondo_btn_login"
+        android:hint="Confirmar contraseña"
+        android:textColorHint="@color/gris_claro"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_light"
+        android:paddingLeft="18dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:maxLength="40"
+
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_1_registrar_user" />
+
+    <Button
+        android:id="@+id/et_registrarse_registrar_user"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fondo_btn_ingresar"
+        android:text="Registrarse"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_2_registrar_user" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.078" />
 
     <EditText
         android:id="@+id/et_user_cliente_crearUser"
@@ -36,7 +36,6 @@
         android:fontFamily="@font/roboto_light"
         android:paddingLeft="18dp"
         android:inputType="text"
-        android:imeOptions="actionNext"
         android:singleLine="true"
         android:maxLength="40"
 
