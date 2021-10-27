@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Feels">
         <activity
-            android:name=".RegistrarUser"
+            android:name=".Recuperar_password"
             android:exported="true" />
         <activity
-            android:name=".CrearCliente"
+            android:name=".RegistrarUser"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +24,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Login"
+            android:name=".CrearCliente"
             android:exported="true"></activity>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
         <activity
             android:name=".Principal"
             android:exported="true" />

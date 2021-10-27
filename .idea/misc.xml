@@ -11,6 +11,7 @@
         <entry key="app/src/main/res/drawable/fondo_btn_ingresar_bloqueado.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable/fondo_btn_iniciar_login.xml" value="0.3175925925925926" />
         <entry key="app/src/main/res/drawable/fondo_btn_login.xml" value="0.3175925925925926" />
+        <entry key="app/src/main/res/drawable/fondo_btn_login_error.xml" value="0.2740740740740741" />
         <entry key="app/src/main/res/drawable/fonf.xml" value="0.3175925925925926" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.321025641025641" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.321025641025641" />
@@ -24,9 +25,15 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.30512820512820515" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_principal.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_recuperar_password.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_registrar_user.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/btnview_principal.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icono_atras.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icono_atras2.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icono_atras2_round.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icono_atras_round.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/icono_negocio.xml" value="0.18385416666666668" />
       </map>
     </option>
   </component>
