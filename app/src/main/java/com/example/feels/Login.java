@@ -3,6 +3,7 @@ package com.example.feels;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,8 +11,10 @@ import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -182,7 +185,35 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        /**
+         * @author Alexis Ruiz Uribe
+         * @date 2/11/2021
+         * @params
+         * @resumen Función para cerrar el teclado cunado se toca la pantalla fuera de los botones
+         */
+        View myView = findViewById(R.id.cons_my_view);
+        myView.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                closeTecladoMovil();
+                return true;
+            }
+        });
 
 
+
+    }
+
+    /**
+     * @author Alexis Ruiz Uribe
+     * @date 2/11/2021
+     * @params
+     * @resumen Función para cerrar el teclado cunado se toca la pantalla fuera de los botones
+     */
+    private void closeTecladoMovil() {
+        View view = this.getCurrentFocus();
+        if (view != null){
+            InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
     }
 }

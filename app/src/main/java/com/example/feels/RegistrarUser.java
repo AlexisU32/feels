@@ -71,6 +71,17 @@ public class RegistrarUser extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                if (!terminos.isChecked()){
+                    llenarCampos.setText("Debe haceptar los terminos y condiciones ");
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            llenarCampos.setText("");
+                        }
+                    }, 2000);
+                    return;
+                }
+
                 if (name.getText().toString().isEmpty()){
                     name.setBackground(getResources().getDrawable(R.drawable.fondo_btn_login_error));
                     llenarCampos.setText("Debe ingresar los campos en rojo");
@@ -129,6 +140,12 @@ public class RegistrarUser extends AppCompatActivity {
 
     }
 
+    /**
+     * @author Alexis Ruiz Uribe
+     * @date 2/11/2021
+     * @params
+     * @resumen Función para cerrar el teclado cunado se toca la pantalla fuera de los botones
+     */
     private void closeTecladoMovil() {
         View view = this.getCurrentFocus();
         if (view != null){
